@@ -1,0 +1,25 @@
+@use "@/styles/_variables.scss" as v;
+
+.bg_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 320px;
+
+  background: v.$bg-img no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  gap: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  top: 5%;
+}

@@ -1,0 +1,20 @@
+@use "@/styles/_variables.scss" as v;
+
+.header_group {
+  width: 100b;
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    text-transform: uppercase;
+    color: v.$default_white;
+    letter-spacing: 0.8rem;
+  }
+
+  button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.8rem;
+    color: v.$default_white;
+  }
+}
