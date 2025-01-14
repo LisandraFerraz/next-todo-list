@@ -1,3 +1,4 @@
+"use client";
 import styles from "./main-page.module.scss";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import BgImg from "./../assets/bg-desktop-dark.jpg";
